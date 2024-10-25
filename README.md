@@ -19,8 +19,6 @@
 </div>
 <img width="555" alt="image" src="https://github.com/user-attachments/assets/86eafde2-7c2e-4a6e-b4d4-723326c34165">
 
-8. Open Terminal on docker desktop / your favorite terminal 
-9. Navigate to the folder where you cloned this repo and Run `docker-compose up --build`
 
 ## Visual Studio Code Setup 
 1. Install Remote containers extentions on your VS Code
@@ -35,11 +33,16 @@
 <img width="1325" alt="image" src="https://github.com/user-attachments/assets/3dfe8e98-6dfa-40a0-b4d5-3d01ce7ebb88">
 5.Click on this blue color box at the very left bottom end.
 <img width="661" alt="image" src="https://github.com/user-attachments/assets/6fed11e9-e164-4b00-93b6-287eb144d86b">
+
 6.select " Attach to a running container " 
 <img width="661" alt="image" src="https://github.com/user-attachments/assets/fc6070e4-817c-42bc-b379-7c2a9d7713ce">
+
 7.select the ros container among these two . ( DONOT select the NOVNC one )
+
 8.And yes a new window will open , which is running inside the docker container.
+
 9.For sending files to your container , copy them and paste it in the workspace folder in the directery you cloned this repo
+
 <img width="725" alt="image" src="https://github.com/user-attachments/assets/6980200d-34c0-4b04-896a-760febba2da2">
 
 ## Running GUI Appilication
