@@ -1,5 +1,5 @@
 ## Initial Installations (For MAC People)
-1. Xqurtz -   ([Installation Instructions Here]((https://www.xquartz.org/releases/XQuartz-2.8.1.html)))
+1. Xqurtz -   ([Installation Instructions Here](https://www.xquartz.org/releases/XQuartz-2.8.1.html )))
 2. Visual Studio Code ( for making life easier)   ([Installation Instructions Here](https://code.visualstudio.com)))
 3. brew package manager - paste the below command on terminal
  <div>
