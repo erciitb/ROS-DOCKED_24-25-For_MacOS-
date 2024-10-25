@@ -22,7 +22,9 @@
 
 ## Visual Studio Code Setup 
 1. Install Remote containers extentions on your VS Code
+
 <img width="1710" alt="image" src="https://github.com/user-attachments/assets/020b428b-69e2-4fe4-bb2c-dda39505ba73">
+
 2. Open VS code in this folder where you downloaded this repo.
 3. Then open terminal in vs code and run below Command.
 <div>
@@ -30,11 +32,15 @@
   <button onclick="copyCode()"></button>
 </div>
 4. once you get this output.(DONOT CLOSE THIS TERMINAL)
+
 <img width="1325" alt="image" src="https://github.com/user-attachments/assets/3dfe8e98-6dfa-40a0-b4d5-3d01ce7ebb88">
+
 5.Click on this blue color box at the very left bottom end.
+
 <img width="661" alt="image" src="https://github.com/user-attachments/assets/6fed11e9-e164-4b00-93b6-287eb144d86b">
 
 6.select " Attach to a running container " 
+
 <img width="661" alt="image" src="https://github.com/user-attachments/assets/fc6070e4-817c-42bc-b379-7c2a9d7713ce">
 
 7.select the ros container among these two . ( DONOT select the NOVNC one )
