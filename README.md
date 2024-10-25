@@ -12,11 +12,13 @@
 2. Clone this repository
 5. Open `ros.env` 
 6. Change `ROS_MASTER_URI=[YOUR ROS MASTER]` to have the url of your ROS master (the format is `ROS_MASTER_URI=http://[IP or HOSTNAME]:11311`)
-7. for your ip address , open terminal and type in the below command
+7. for your ip address , open terminal and type in the below command , and inet guy is your ip addresss. 
 <div>
   <pre><code id="codeBlock">ifconfig</code></pre>
   <button onclick="copyCode()"></button>
 </div>
+<img width="555" alt="image" src="https://github.com/user-attachments/assets/86eafde2-7c2e-4a6e-b4d4-723326c34165">
+
 8. Open Terminal on docker desktop / your favorite terminal 
 9. Navigate to the folder where you cloned this repo and Run `docker-compose up --build`
 
