@@ -1,16 +1,24 @@
 ## Initial Installations (For MAC People)
-1. Xqurtz
-2. Visual Studio Code ( for making life easier)
-3. iterm terminal ( becuase the native terminal in macos sucks )
-4. brew package manager
+1. Xqurtz -   ([Installation Instructions Here]([https://docs.docker.com/desktop/](https://www.xquartz.org/releases/XQuartz-2.8.1.html)))
+2. Visual Studio Code ( for making life easier)   ([Installation Instructions Here](https://code.visualstudio.com)))
+3. brew package manager - paste the below command on terminal
+ <div>
+  <pre><code id="codeBlock">/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"</code></pre>
+  <button onclick="copyCode()"></button>
+</div>
 
-## Ros Setup
+## Ros-Docker Setup
 1. Install Docker ([Installation Instructions Here](https://docs.docker.com/desktop/))
 2. Clone this repository
 5. Open `ros.env` 
 6. Change `ROS_MASTER_URI=[YOUR ROS MASTER]` to have the url of your ROS master (the format is `ROS_MASTER_URI=http://[IP or HOSTNAME]:11311`)
-7. Open Terminal on docker desktop 
-8. Navigate to the folder where you cloned this repo and Run `docker-compose up --build`
+7. for your ip address , open terminal and type in the below command
+<div>
+  <pre><code id="codeBlock">ifconfig</code></pre>
+  <button onclick="copyCode()"></button>
+</div>
+8. Open Terminal on docker desktop / your favorite terminal 
+9. Navigate to the folder where you cloned this repo and Run `docker-compose up --build`
 
 ## Visual Studio Code Setup 
 1. Install Remote containers extentions on your VS Code
