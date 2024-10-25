@@ -24,12 +24,26 @@
 
 ## Visual Studio Code Setup 
 1. Install Remote containers extentions on your VS Code
-2. After you run `docker-compose up --build` on Docker Desktop ( or in your favoraite terminal emulator ) , go to the command pannel and search for attach running containers
-3. select ros-docker-os container
-4. Finally Open terminal in vs code , and voila you have your container running
+<img width="1710" alt="image" src="https://github.com/user-attachments/assets/020b428b-69e2-4fe4-bb2c-dda39505ba73">
+2. Open VS code in this folder where you downloaded this repo.
+3. Then open terminal in vs code and run below Command.
+<div>
+  <pre><code id="codeBlock">docker-compose up --build</code></pre>
+  <button onclick="copyCode()"></button>
+</div>
+4. once you get this output.(DONOT CLOSE THIS TERMINAL)
+<img width="1325" alt="image" src="https://github.com/user-attachments/assets/3dfe8e98-6dfa-40a0-b4d5-3d01ce7ebb88">
+5.Click on this blue color box at the very left bottom end.
+<img width="661" alt="image" src="https://github.com/user-attachments/assets/6fed11e9-e164-4b00-93b6-287eb144d86b">
+6.select " Attach to a running container " 
+<img width="661" alt="image" src="https://github.com/user-attachments/assets/fc6070e4-817c-42bc-b379-7c2a9d7713ce">
+7.select the ros container among these two . ( DONOT select the NOVNC one )
+8.And yes a new window will open , which is running inside the docker container.
+9.For sending files to your container , copy them and paste it in the workspace folder in the directery you cloned this repo
+<img width="725" alt="image" src="https://github.com/user-attachments/assets/6980200d-34c0-4b04-896a-760febba2da2">
 
 ## Running GUI Appilication
 Open your browser to `localhost:8080/vnc.html` and click connect.
 
-## Installing other packages
+## Installing other packages (EXTRA not required now)
 Edit the `Dockerfile` line that installs packages and rebuild the container using `docker-compose build`.
